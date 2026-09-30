@@ -5,7 +5,11 @@ description = "Add your description here"
 requires-python = ">=3.13"
 dependencies = [
     "alembic>=1.20.0",
+    "bcrypt>=5.0.0",
     "fastapi[standard]>=0.141.1",
+    "python-dotenv>=1.2.3",
+    "python-jose[cryptography]>=3.5.0",
+    "python-multipart>=0.0.32",
     "sqlalchemy>=2.1.1",
     "test-py>=0.3",
     "uvicorn>=0.54.0",
